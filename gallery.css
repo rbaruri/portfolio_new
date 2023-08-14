@@ -1,0 +1,39 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Create a flex container for the gallery */
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+
+  /* Style each gallery item */
+  .gallery-item {
+    width: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Style the images within the gallery items */
+  .gallery-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+  }
+  .navbar {
+    background-color: #333;
+  }
+  .navbar-brand, .navbar-nav .nav-link {
+    color: #fff;
+  }

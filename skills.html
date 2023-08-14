@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skills Page</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="./skills.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">MyWebsite</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="./home.html"><i class="fas fa-home"></i> Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./gallery.html"><i class="fas fa-info-circle"></i> About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./skills.html"><i class="fas fa-image"></i> Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./skills.html"><i class="fas fa-image"></i> Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-envelope"></i> Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  <!-- Hero Section 1 -->
+  <div class="hero">
+    <h1>Welcome to Skills Page</h1>
+  </div>
+
+  <!-- Skill Cards Section -->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <i class="fas fa-code skill-icon"></i>
+            <h5 class="card-title">Web Development</h5>
+            <p class="card-text">Front-end and back-end web development using modern technologies.</p>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#webDevModal">Learn More</button>
+          </div>
+        </div>
+      </div>
+      <!-- Add more skill cards here -->
+    </div>
+  </div>
+
+  <!-- Modal for Web Development -->
+  <div class="modal fade" id="webDevModal" tabindex="-1" role="dialog" aria-labelledby="webDevModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="webDevModalLabel">Web Development Skills</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Front-end skills: HTML, CSS, JavaScript, React.</p>
+          <p>Back-end skills: Node.js, Express, MongoDB.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Registration Form Section -->
+  <div class="hero">
+    <div class="container">
+      <h2>Register for Our Skills Workshop</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter your email">
+        </div>
+        <div class="form-group">
+          <label for="skills">Select a Skill</label>
+          <select class="form-control" id="skills">
+            <option value="webDev">Web Development</option>
+            <!-- Add more skill options here -->
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Register</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
