@@ -4,7 +4,8 @@ body {
 }
 
 .container {
-  margin-top: 50px;
+  padding-top: 50px;
+  background-color: #fefeff;
 }
 
 .card {
@@ -19,7 +20,7 @@ body {
 .card-title {
   font-size: 1.5rem;
   margin-top: 1rem;
-  color: #007bff;
+  color: #34383e;
   font-weight: bolder
 }
 
@@ -50,13 +51,14 @@ body {
 
 .hero {
   position: relative;
-  background-image: url('https://via.placeholder.com/1200x400');
+  background-image: url('./black-1072366_1280.jpg');
   background-size: cover;
   background-position: center;
   color: #fff;
   text-align: center;
   padding: 150px 0;
   z-index: 0;
+  font-weight: bolder;
 }
 .skill-cards-overlay {
   position: relative;
@@ -80,4 +82,8 @@ body {
 .skill-icon {
   font-size: 2rem;
   color: #007bff;
+}
+.back-to-home {
+  margin-top: 0;
+  margin-bottom: 60px; /* Adjust this value as needed */
 }

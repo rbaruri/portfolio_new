@@ -9,7 +9,7 @@ body, ul {
     justify-content: center;
     gap: 80px;
     padding: 20px;
-    background-color: #f0f0f0;
+    background-color: #171717;
   }
 
   .gallery-item {
@@ -32,9 +32,10 @@ body, ul {
     color: #fff;
   }
   .heading{
-    background-color: #f0f0f0;
+    background-color: #171717;
     padding-top: 50px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     margin: 0;
     text-align: center;
+    color: #fff;
   }

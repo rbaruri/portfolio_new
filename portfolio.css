@@ -1,16 +1,7 @@
-body {
-    font-family: Arial, sans-serif;
-  }
-  .navbar {
-    background-color: #333;
-  }
-  .navbar-brand, .navbar-nav .nav-link {
-    color: #fff;
-  }
-  
   .project-section {
     position: relative;
     overflow: hidden;
+    padding-left: 100px;
   }
   
   .parallax {
@@ -23,7 +14,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    right: 0; /* Use right: 0 to stretch the overlay */
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
@@ -32,8 +23,10 @@ body {
     align-items: center;
     color: #fff;
     text-align: center;
-    opacity: 0; /* Hidden by default */
+    opacity: 0;
     transition: opacity 0.3s;
+    margin-left: 100px;
+    margin-right: 115px;
   }
   
   .project-section:hover .overlay {
@@ -72,6 +65,27 @@ body {
     margin:50px;
     position: relative;
     overflow: hidden;
-    height: 400px; /* Set the desired height for each project section */
+    height: 400px; 
+  }
+  
+  body{
+    background: rgb(221, 220, 220);
+  }
+  .project-image1 {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+  }
+  .project-image {
+    height:400px;
+    width: 950px;
+  }
+
+  .navbar {
+    background-color: #333;
+  }
+  .navbar-brand, .navbar-nav .nav-link {
+    color: #fff;
   }
   

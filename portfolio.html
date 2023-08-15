@@ -3,33 +3,61 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./favicon.png" type="image/x-icon">
   <title>Projects</title>
   <link rel="stylesheet" href="./portfolio.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./home.html"><i class="fas fa-home"></i> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./gallery.html"><i class="fas fa-info-circle"></i> Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./skills.html"><i class="fas fa-image"></i> Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./portfolio.html"><i class="fas fa-image"></i> Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html"><i class="fas fa-envelope"></i> Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
   <div class="project-section" id="project1">
     <div class="parallax" id="parallax1">
-        <img src="./wordpress-923188_1280.jpg" alt="project 1 img">
+        <img class="project-image" src="./Screenshot (6).png" alt="project 1 img">
     </div>
     <div class="overlay">
-      <h2>Project 1</h2>
-      <p>Description of Project 1</p>
+      <h2>SaberGPT</h2>
+      <p>Answers the questions asked</p>
       <a href="project1.html" class="btn-redirect">View Project</a>
     </div>
   </div>
 
   <div class="project-section" id="project2">
     <div class="parallax" id="parallax2">
-        <img src="./wordpress-923188_1280.jpg" alt="project 1 img">
+        <img class="project-image1" src="./Screenshot (7).png" alt="project 1 img">
     </div>
     <div class="overlay">
-      <h2>Project 2</h2>
-      <p>Description of Project 2</p>
+      <h2>Chat To PDF</h2>
+      <p>Scans answers of asked questions in the provided portfolio</p>
       <a href="project2.html" class="btn-redirect">View Project</a>
     </div>
   </div>
-
-  <!-- Add more project sections -->
 
   <script src="./portfolio.js"></script>
 </body>
