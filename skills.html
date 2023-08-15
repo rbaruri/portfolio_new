@@ -9,39 +9,9 @@
   <link rel="stylesheet" href="./skills.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container">
-          <a class="navbar-brand" href="#">MyWebsite</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="./home.html"><i class="fas fa-home"></i> Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./gallery.html"><i class="fas fa-info-circle"></i> About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./skills.html"><i class="fas fa-image"></i> Skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./skills.html"><i class="fas fa-image"></i> Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-envelope"></i> Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-  <!-- Hero Section 1 -->
-  <div class="hero">
+   <div class="hero">
     <h1>Welcome to Skills Page</h1>
   </div>
-
-  <!-- Skill Cards Section -->
   <div class="container mt-5">
     <div class="row">
       <div class="col-md-4 mb-4">
@@ -54,11 +24,28 @@
           </div>
         </div>
       </div>
-      <!-- Add more skill cards here -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <i class="fas fa-mobile-alt skill-icon"></i>
+            <h5 class="card-title">Mobile App Development</h5>
+            <p class="card-text">Creating mobile applications for iOS and Android platforms.</p>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#mobileDevModal">Learn More</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <i class="fas fa-database skill-icon"></i>
+            <h5 class="card-title">Database Management</h5>
+            <p class="card-text">Designing and managing databases for efficient data storage and retrieval.</p>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#dbManagementModal">Learn More</button>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-
-  <!-- Modal for Web Development -->
   <div class="modal fade" id="webDevModal" tabindex="-1" role="dialog" aria-labelledby="webDevModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -78,32 +65,6 @@
       </div>
     </div>
   </div>
-
-  <!-- Registration Form Section -->
-  <div class="hero">
-    <div class="container">
-      <h2>Register for Our Skills Workshop</h2>
-      <form>
-        <div class="form-group">
-          <label for="name">Name</label>
-          <input type="text" class="form-control" id="name" placeholder="Enter your name">
-        </div>
-        <div class="form-group">
-          <label for="email">Email address</label>
-          <input type="email" class="form-control" id="email" placeholder="Enter your email">
-        </div>
-        <div class="form-group">
-          <label for="skills">Select a Skill</label>
-          <select class="form-control" id="skills">
-            <option value="webDev">Web Development</option>
-            <!-- Add more skill options here -->
-          </select>
-        </div>
-        <button type="submit" class="btn btn-primary">Register</button>
-      </form>
-    </div>
-  </div>
-
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
