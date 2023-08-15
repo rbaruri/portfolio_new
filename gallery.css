@@ -7,13 +7,13 @@ body, ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 80px;
     padding: 20px;
     background-color: #f0f0f0;
   }
 
   .gallery-item {
-    width: 300px;
+    width: 400px;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -21,7 +21,7 @@ body, ul {
 
   .gallery-item img {
     max-width: 100%;
-    height: auto;
+    height: 100%;
     display: block;
   }
 
